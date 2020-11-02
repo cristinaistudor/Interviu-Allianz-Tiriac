@@ -1,0 +1,33 @@
+-----------------------------------------------------------------------------
+Date : 11/1/2020 4:48:37 PM
+
+Microsoft.Data.SqlClient.SqlException
+Message : Violation of PRIMARY KEY constraint 'PK_Agreements'. Cannot insert duplicate key in object 'dbo.Agreements'. The duplicate key value is (CNP1112).
+The statement has been terminated.
+StackTrace :    at Interviu.Data.SqlAgreementRepo.SaveChanges() in C:\Users\crist\Desktop\Interviu\Controllers\SqlAgreementRepo.cs:line 72
+   at Interviu.Controllers.AgreementController.CreateAgreement(Agreement agreement) in C:\Users\crist\Desktop\Interviu\Controllers\AgreementController.cs:line 71
+-----------------------------------------------------------------------------
+Date : 11/1/2020 5:00:18 PM
+
+Message : Violation of PRIMARY KEY constraint 'PK_Agreements'. Cannot insert duplicate key in object 'dbo.Agreements'. The duplicate key value is (CNP1112).
+The statement has been terminated.
+-----------------------------------------------------------------------------
+Date : 11/1/2020 5:00:54 PM
+
+Message : Agreement not found!
+-----------------------------------------------------------------------------
+Date : 11/1/2020 5:01:18 PM
+
+Message : Agreement not found!
+-----------------------------------------------------------------------------
+Date : 11/1/2020 5:35:01 PM
+
+Message : Agreement not found!
+-----------------------------------------------------------------------------
+Date : 11/1/2020 5:42:33 PM
+
+Message : Agreement not found!
+-----------------------------------------------------------------------------
+Date : 11/1/2020 6:02:31 PM
+
+Message : The instance of entity type 'Agreement' cannot be tracked because another instance with the same key value for {'Cod'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
